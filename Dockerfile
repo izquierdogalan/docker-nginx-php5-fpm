@@ -17,7 +17,8 @@ RUN apt-get update -y && \
 	php5-mcrypt \
 	php5-apcu \
 	php5-gd \
-	php5-curl
+	php5-curl \
+	phpunit
 
 # Add config files
 ADD init /init

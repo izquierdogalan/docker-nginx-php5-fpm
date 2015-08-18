@@ -1,6 +1,6 @@
 server {
     listen 80;
-    root root /var/www/web;
+    root /var/www/web;
 
     location / {
         # try to serve file directly, fallback to app.php

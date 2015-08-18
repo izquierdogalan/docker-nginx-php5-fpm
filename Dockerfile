@@ -2,7 +2,7 @@
 FROM ubuntu:15.04
 
 # specify maintainer
-MAINTAINER Jonathan Izquierdo <ja.izquierdo.galan@gmail.com@gmail.com>
+MAINTAINER Jonathan Izquierdo <ja.izquierdo.galan@gmail.com>
 
 # run update and install nginx, php-fpm and other useful libraries
 RUN apt-get update -y && \

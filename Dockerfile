@@ -50,3 +50,4 @@ EXPOSE 80
 # run nginx and php5-fpm on startup
 RUN echo "/etc/init.d/php5-fpm start" >> /etc/bash.bashrc
 RUN echo "/etc/init.d/nginx start" >> /etc/bash.bashrc
+RUN echo "/etc/init.d/ssh restart" >> /etc/bash.bashrc

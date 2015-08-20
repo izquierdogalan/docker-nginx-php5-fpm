@@ -11,6 +11,7 @@ RUN apt-get update -y && \
 	curl \
 	nano \
 	git \
+	apt-utils \
 	php5-fpm \
 	php5-cli \
 	php5-intl \

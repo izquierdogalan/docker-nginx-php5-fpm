@@ -34,7 +34,6 @@ RUN sed 's@session\s*required\s*pam_loginuid.so@session optional pam_loginuid.so
 ENV NOTVISIBLE "in users profile"
 RUN echo "export VISIBLE=now" >> /etc/profile
 
-EXPOSE 22
 CMD ["/usr/sbin/sshd", "-D"]
 
 # Add config files
@@ -47,6 +46,7 @@ VOLUME ["/var/www"]
 
 # expose port 80
 EXPOSE 80
+EXPOSE 22
 
 # run nginx and php5-fpm on startup
 RUN echo "/etc/init.d/php5-fpm start" >> /etc/bash.bashrc

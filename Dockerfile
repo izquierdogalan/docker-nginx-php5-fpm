@@ -20,6 +20,7 @@ RUN apt-get update -y && \
 	php5-curl \
 	php5-mcrypt \
 	phpunit
+	thrift-compiler
 
 # Add config files
 ADD init /init

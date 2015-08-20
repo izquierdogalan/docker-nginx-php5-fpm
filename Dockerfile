@@ -22,6 +22,7 @@ RUN apt-get update -y && \
 	phpunit \
 	net-tools \
 	openssh-server \
+	php5-xdebug \
 	thrift-compiler
 
 RUN mkdir /var/run/sshd

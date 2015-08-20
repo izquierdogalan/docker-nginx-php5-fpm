@@ -4,7 +4,7 @@ docker-nginx-php5-fpm
 This is the base image with Ubuntu, Nginx and PHP FPM. Docker repository available here [izquierdogalan/docker-nginx-php5-fpm](https://registry.hub.docker.com/u/izquierdogalan/docker-nginx-php5-fpm/).
 
 **Installed Ubuntu version:**
-- 14.04 LTS
+- 15.04
 
 **Installed software:**
 - [Nginx 1.4.6](http://nginx.org/)
